@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap'); /* .profile */
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap'); /* main */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&family=Nunito+Sans:wght@200;300&display=swap'); /* education */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap'); /* about me */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.profile {
+    position: fixed;
+    width: 25%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    border: 1px solid plum;
+    background: rgb(104,97,232);
+    background: linear-gradient(90deg, rgba(104,97,232,1) 0%, rgba(190,0,255,1) 100%, rgba(0,212,255,1) 100%);
+    box-sizing: border-box;
+    
+    color: white;
+}
+.profile .img2 {
+    max-width: 100%;
+    width: auto !important;
+    height: auto !important;
+}
+.profile .a {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    right: 30%;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Nanum Pen Script', cursive;
+}
+.profile .a h2 {
+    margin: 30px;
+}
+.header {
+    position: fixed;
+    height: 150px;
+    left: 25%;
+    right: 0;
+    border: 1px solid plum;
+    background: white;
+    box-sizing: border-box;
+    
+}
+.header h2 {
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    right: 40%;    
+    text-align: center;
+    font-size: 70px;
+    color: purple;
+    font-family: 'Fredoka One', cursive;
+}
+.main {
+    border: 1px solid plum;
+    padding-top: 30px;
+    padding-left: 25%;
+    padding-right: 15%;
+}
+.main .edu {
+    padding-top: 80px;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-bottom: 10%;
+    
+}
+.main .edu .a1 {
+    padding-top: 150px;
+    font-size: 50px;
+    text-align: center;
+    color: plum;
+}
+.main .edu1 {
+    display: inline-block;
+    width: 50%;
+    padding: 0;
+    margin: 0;
+    
+    box-sizing: border-box;
+    float: left;
+}
+.main .icon {
+    max-width: 100%;
+    padding-left: 50px;
+    width: auto;
+    height: auto;  
+}
+.main .edu2 {
+    display: inline-block;
+    width: 50%;
+    padding: 0;
+    margin: 0;
+    padding-left: 40px;
+    box-sizing: border-box;
+    float: right;  
+}
+.edu2 .g {
+    float: left;
+    width: 100%;
+    font-size: 0;
+    margin-bottom: 150px;
+}
+.edu2 .g .q {
+    display: inline-block;
+    width: 40%;  
+    vertical-align: middle;
+}
+.edu2 .g .q .icon3 {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+.edu2 .g .w {
+    display: inline-block;
+    width: 60%;
+    font-size: 35px;
+    text-align: center;
+    vertical-align: middle;
+    color: plum;
+}
+.main .edu2 p {
+    font-family: 'Baloo Tammudu 2', cursive;
+
+    
+}
+
+.main .skill {
+    padding-top: 80px;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 30%;
+    margin-bottom: 1%;
+    clear: both;
+    /* border: 1px solid black; */
+    background: rgb(233,166,254);
+    background: linear-gradient(90deg, rgba(233,166,254,1) 100%, rgba(151,52,180,1) 100%);
+    text-align: center;
+    border-radius: 50px;
+}
+.main .skill .a2 {
+    font-size: 50px;
+    padding-bottom: 10%;
+    padding-top: 150px;
+    color: purple;
+}
+.main .h {
+    width: 300px;
+    border: 1px solid white;
+    border-radius: 50px;
+    padding-bottom: 10px;
+    margin:0 auto;
+    margin-bottom: 90px;
+    background-color: white;
+    box-shadow: -1px 10px 87px 0px #ae5ec6;
+}
+
+.main .skill .text .html {
+    width: 15%;
+    float: left;
+    
+    font-size: 20px;
+}
+.main .skill .text .css {
+    width: 15%;
+    float: left;
+    
+    font-size: 20px;
+}
+.main .skill .text .javascript {
+    width: 15%;
+    float: left;
+    
+    font-size: 20px;
+}
+.main .skill .text .react {
+    width: 15%;
+    float: left;
+    
+    font-size: 20px;
+}
+.main .skill .text .python {
+    width: 15%;
+    float: left;
+    font-size: 20px;
+    margin-right: 20px;
+}
+.main .skill .text .nodejs {
+    width: 15%;
+    float: left;
+    font-size: 20px;
+}
+.main .like{
+    width: 100%;
+    height: auto;
+    padding-bottom: 30%;
+    
+}
+.main .a3 {
+    padding-top: 150px;
+    font-size: 50px;
+    text-align: center;   
+    color: plum;
+    margin-bottom: 10%;
+}
+.main .like .youtube {
+    display: inline-block;
+    width: 50%;
+    height: 330px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    float: left;    
+    font-size: 20px;
+}
+.main .like .youtube .youtube1 {
+    float: left;
+}
+.main .like .game {
+    display: inline-block;
+    width: 50%;
+    height: 330px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+    
+}
+.main .like .game .game1 {
+    float: left;
+}
+.main .like .movie {
+    display: inline-block;
+    width: 50%;
+    height: 330px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    float: left;  
+    
+}
+.main .like .movie .movie1 {
+    float: left;
+}
+.main .like .surfing {
+    display: inline-block;
+    width: 50%;
+    height: 330px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    float: right;
+}
+.main .like .surfing .surfing1 {
+    float: left;
+}
+.main .future {
+    
+    width: 100%;
+    height: 900px;
+    background: rgb(233,166,254);
+    background: linear-gradient(90deg, rgba(233,166,254,1) 100%, rgba(151,52,180,1) 100%);
+    border-radius: 50px;
+}
+.main .future .a4 {
+    font-size: 50px;
+    text-align: center;
+    color: purple;
+    padding-top: 150px;
+    margin-bottom: 8%;
+}
+.main .future .coding {
+    display: inline-block;
+    width: 50%;
+    padding: 0;
+    margin: 0;
+    padding-left: 20px;
+    box-sizing: border-box;
+    float: left;
+    
+
+}
+.main .future .fu {
+    display: inline-block;
+    width: 50%;
+    padding: 0;
+    margin: 0;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-sizing: border-box;
+    font-size: 50px;
+    float: right;
+    
+}
+.main .future .fu p {
+    padding: 10px;
+    font-size: 25px;
+    text-align: center;
+}
+
+/* h1 {
+    padding-top: 150px;
+    padding-bottom: 30px;
+    clear: both;
+} */
+.nav {
+    position: fixed;
+    width: 15%;
+    top: 150px;
+    right: 0;
+    bottom: 0;
+    border: 1px solid plum;
+    background: white;
+    box-sizing: border-box;    
+}
+.nav li {
+    font-size: 30px;
+    margin: 70px;
+    font-family: 'Righteous', cursive;
+}
+.nav li a:hover {
+    color: plum;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+} 
